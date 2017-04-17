@@ -36,7 +36,7 @@ namespace WebApiGitHub
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-
+            //Mvc Use
             app.UseMvc();
         }
     }
